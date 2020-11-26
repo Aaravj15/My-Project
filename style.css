@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 9;
-    
+
 }
 
 
@@ -72,13 +72,53 @@ p {
     vertical-align: middle;
 
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 .article:hover {
-    color:fuchsia;
+    color: fuchsia;
 }
 
+.menu {
+    position: fixed;
+    background: orange;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
 
+a {
+    text-decoration: underline;
+    color: red;
+    text-shadow: 2px 2px gainsboro;
+}
 
-/*ADD CSS FROM HERE */
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue;
+}
+
+#contact {
+    background: firebrick;
+}
+
+.contact_1 a {
+    display: inline;
+}
